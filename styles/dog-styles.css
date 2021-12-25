@@ -44,13 +44,14 @@ font-size: 1.2rem;
 .thumbnails-item {
     margin-top: 2vh;
     margin-left: 2vw;
+    
    
 }
 .thumbnails-anchor {
     text-decoration: none;
 }
 .details-title {
-    background-color: blanchedalmond;
+    background-color: rgb(129, 101, 56);
     position: absolute;
     left: 3vw;
     bottom: 2vw;
@@ -72,20 +73,23 @@ body, html {
       flex-direction: column;
       flex-wrap: nowrap;
       order: -1;
-      max-height: 80vh;
+      max-height: 100vh;
       align-items: center;
       }  
   .thumbnails-title {
       width: 20vw;
+      
+    
          
   }
   .thumbnails-item {
       max-width: 20vw;
       border-radius: 20%;
+      color: wheat;
     }
+    
       
-      
-    .details-container {
+       .details-container {
       float: right;
      margin-right: 4vw;
      align-items: center;
@@ -94,13 +98,18 @@ body, html {
   .details-image {
     width: 50vw;
     height: 35vw; 
-
-  }
+    }
   body {
       background-color:moccasin;
   }
   ::-webkit-scrollbar {
       width: 0px;
+  }
+  .details-title {
+    left: -3vw;
+    bottom: 2vw;
+    width: 25vw;
+    font-size: larger;
   }
   
   
