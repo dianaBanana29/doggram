@@ -24,6 +24,7 @@ display: block;
 .details-image {
     width: 60vw;
     height: 55vw;
+    border-radius: 5%;
 }
 .details-container {
     position: relative;
