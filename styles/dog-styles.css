@@ -71,25 +71,33 @@ body, html {
 @media (min-width: 568px) {
   .thumbnails-list {
       flex-direction: column;
-      flex-wrap: nowrap;
-      order: -1;
-      max-height: 100vh;
+      flex-wrap:nowrap;
+     /* order: -1;*/
+      max-height: 80vh;
       align-items: center;
+      overflow-y: auto ;
+      padding-top: 0vh;
+    
+      
       }  
   .thumbnails-title {
       width: 20vw;
+      position: absolute;
+      bottom: 0;
       
-    
-         
-  }
+      
+    }
   .thumbnails-item {
       max-width: 20vw;
-      border-radius: 20%;
       color: wheat;
+      position: relative;
+      border-radius: 10%;
+      
+      
     }
     
       
-       .details-container {
+ .details-container {
       float: right;
      margin-right: 4vw;
      align-items: center;
@@ -110,7 +118,10 @@ body, html {
     bottom: 2vw;
     width: 25vw;
     font-size: larger;
+
   }
-  
+  .thumbnails-image {
+      border-radius: 10%;
+  }
   
 }
