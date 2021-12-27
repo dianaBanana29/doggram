@@ -74,26 +74,34 @@ body, html {
       flex-wrap:nowrap;
      /* order: -1;*/
       max-height: 80vh;
-      align-items: center;
+      max-width: 30%;
+      align-items:center;
       overflow-y: auto ;
       padding-top: 0vh;
+      justify-content:start;
+      
     
       
       }  
   .thumbnails-title {
-      width: 20vw;
+      width: 15vw;
       position: absolute;
       bottom: 0;
       
       
     }
   .thumbnails-item {
-      max-width: 20vw;
+      max-width: 15vw;
+      min-height: 15vw;
       color: wheat;
       position: relative;
+      border: 2px solid white;
       border-radius: 10%;
-      
-      
+      overflow:hidden;
+    }
+    .thumbnails-image {
+        max-width: 15vw;
+        max-height: 15vw;
     }
     
       
@@ -101,6 +109,8 @@ body, html {
       float: right;
      margin-right: 4vw;
      align-items: center;
+     margin-top: 4vh;
+     min-width: 70%;
      
   }
   .details-image {
@@ -109,19 +119,18 @@ body, html {
     }
   body {
       background-color:moccasin;
+      max-height: 98%;
   }
   ::-webkit-scrollbar {
       width: 0px;
   }
   .details-title {
-    left: -3vw;
+    left: 3vw;
     bottom: 2vw;
     width: 25vw;
     font-size: larger;
 
   }
-  .thumbnails-image {
-      border-radius: 10%;
-  }
+  
   
 }
