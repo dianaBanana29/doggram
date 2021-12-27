@@ -79,20 +79,21 @@ body, html {
       overflow-y: auto ;
       padding-top: 0vh;
       justify-content:start;
+      margin-left: 5vw;
       
     
       
       }  
   .thumbnails-title {
-      width: 15vw;
+      width: 16vw;
       position: absolute;
       bottom: 0;
       
       
     }
   .thumbnails-item {
-      max-width: 15vw;
-      min-height: 15vw;
+      max-width: 16vw;
+      min-height: 12vw;
       color: wheat;
       position: relative;
       border: 2px solid white;
@@ -100,26 +101,25 @@ body, html {
       overflow:hidden;
     }
     .thumbnails-image {
-        max-width: 15vw;
-        max-height: 15vw;
+        max-width: 16vw;
+        max-height: 12vw;
     }
     
       
  .details-container {
       float: right;
-     margin-right: 4vw;
      align-items: center;
      margin-top: 4vh;
      min-width: 70%;
      
   }
   .details-image {
-    width: 50vw;
-    height: 35vw; 
+    width: 51vw;
+    height: 36vw; 
     }
   body {
       background-color:moccasin;
-      max-height: 98%;
+      max-height: 96%;
   }
   ::-webkit-scrollbar {
       width: 0px;
