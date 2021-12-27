@@ -51,7 +51,7 @@ font-size: 1.2rem;
     text-decoration: none;
 }
 .details-title {
-    background-color: rgb(129, 101, 56);
+    background-color: orange;
     position: absolute;
     left: 3vw;
     bottom: 2vw;
@@ -88,16 +88,16 @@ body, html {
       width: 16vw;
       position: absolute;
       bottom: 0;
+      background-color: white;
       
       
     }
   .thumbnails-item {
       max-width: 16vw;
       min-height: 12vw;
-      color: wheat;
       position: relative;
-      border: 2px solid white;
-      border-radius: 10%;
+      border:white solid 3px;
+      border-radius: 12%;
       overflow:hidden;
     }
     .thumbnails-image {
@@ -116,6 +116,7 @@ body, html {
   .details-image {
     width: 51vw;
     height: 36vw; 
+    border-radius: 10%;
     }
   body {
       background-color:moccasin;
