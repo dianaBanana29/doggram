@@ -59,6 +59,7 @@ color: black;
 font-size: 1rem;
 width: var(--thumbnails-image-width);
 height: var(--thumbnails-title-height);
+padding-bottom: 3%;
 }
 .thumbnails-item {
     margin-top: 2vh;
@@ -80,6 +81,7 @@ height: var(--thumbnails-title-height);
     bottom: 2vw;
     font-family: airstream;
     font-style: italic;
+    font-size: 1rem;
 }
 .logo-title {
     background-color:darkolivegreen;
@@ -145,14 +147,21 @@ height: var(--thumbnails-title-height);
   .details-title {
     left: 3vw;
     bottom: 2vw;
-    width: 25vw;
-    font-size: larger;
+    width: 40vw;
+
 }
   }
- /* @media (min-width: 900px) {
+  @media (min-width: 900px) {
     :root {
         --thumbnails-image-width:12vw;
         --thummbnails-image-height: 10vw;
         --thumbnails-title-height: calc(var(--thummbnails-image-height)*0.15);
+    }
+    .thumbnails-title {
+        padding-top: 3%;
+    }
+    .details-title {
+        font-size: 2rem;
+    
     }
 }
