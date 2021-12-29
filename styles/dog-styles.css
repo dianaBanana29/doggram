@@ -155,10 +155,7 @@ padding-bottom: 3%;
     :root {
         --thumbnails-image-width:12vw;
         --thummbnails-image-height: 10vw;
-        --thumbnails-title-height: calc(var(--thummbnails-image-height)*0.15);
-    }
-    .thumbnails-title {
-        padding-top: 3%;
+        --thumbnails-title-height: calc(var(--thummbnails-image-height)*0.10);
     }
     .details-title {
         font-size: 2rem;
